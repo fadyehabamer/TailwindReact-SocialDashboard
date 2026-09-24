@@ -1,7 +1,7 @@
 module.exports = {
   darkMode: "class",
   // * Tailwind v3 always compiles just-in-time and only emits classes found in these files
-  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./index.html"],
   theme: {
     extend: {
       colors: {
