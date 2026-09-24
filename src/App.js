@@ -72,7 +72,7 @@ function App() {
             {/* card  */}
             <div className="card before:bg-twitter">
               <div className="flex items-center justify-center gap-1 pb-6">
-                <span className="text-facebook">
+                <span className="text-twitter">
                   <AiFillTwitterSquare size={22} />
                 </span>
                 <span className="text-sm">@abcd</span>
@@ -93,7 +93,7 @@ function App() {
             {/* card  */}
             <div className="card before:bg-gradient-to-r before:from-amber-500 before:to-fuchsia-600 ">
               <div className="flex items-center justify-center gap-1 pb-6">
-                <span className="text-facebook">
+                <span className="text-fuchsia-600">
                   <AiFillInstagram size={22} />
                 </span>
                 <span className="text-sm">@abcd</span>
@@ -114,7 +114,7 @@ function App() {
             {/* card  */}
             <div className="card before:bg-rose-700">
               <div className="flex items-center justify-center gap-1 pb-6">
-                <span className="text-facebook">
+                <span className="text-rose-700">
                   <AiFillYoutube size={22} />
                 </span>
                 <span className="text-sm">@abcd</span>
@@ -140,8 +140,8 @@ function App() {
             <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-4 lg:gap-6 mt-6 ">
               {Array(8)
                 .fill(" ")
-                .map((el) => (
-                  <div className="card-sm">
+                .map((el, i) => (
+                  <div key={i} className="card-sm">
                     <div className="flex items-center justify-between">
                       <h4 className=" font-bold">Pages Views</h4>
                       <AiFillFacebook className=" text-facebook" size={22} />

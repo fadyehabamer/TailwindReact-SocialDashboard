@@ -1,9 +1,7 @@
 module.exports = {
-  // * just in time --> compile tailwind to css live
-  mode: "jit",
   darkMode: "class",
-  // * Post CSS --> Remove un used css code in files end with these extensions
-  purge: ["./src/**/*.{js,jsx,ts,tsx}"],
+  // * Tailwind v3 always compiles just-in-time and only emits classes found in these files
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
     extend: {
       colors: {
