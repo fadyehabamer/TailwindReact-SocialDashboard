@@ -5,6 +5,8 @@
 
 # Social Media Dashboard
 
+[![CI](https://github.com/fadyehabamer/TailwindReact-SocialDashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/fadyehabamer/TailwindReact-SocialDashboard/actions/workflows/ci.yml)
+
 **Live demo:** https://tailwind-react-social-dashboard.vercel.app
 
 A static social media dashboard UI (followers per network plus an
